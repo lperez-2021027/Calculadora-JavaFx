@@ -1,0 +1,105 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+#boton-igual {
+    -fx-background-color: #64D6B2;
+    -fx-text-fill: #FFFFFF;
+    -fx-background-radius: 20 0 20 0;
+}
+
+#boton-igual:hover{
+    -fx-font-size: 20px;
+    -fx-background-color: #37E2AC;
+}
+
+#boton-ac{
+    /*-fx-background-color: red; otra manera es escribiendo el color*/
+    -fx-background-color: #D84A43;
+    -fx-text-fill: white;
+    -fx-background-radius: 20 0 20 0;
+}
+
+#boton-ac:hover{
+    -fx-text-size: 20px;
+    -fx-background-color: #EC4C4C;
+}
+
+#boton-del{
+    -fx-background-color: #ADC4C0;
+    -fx-text-fill: #D84A43;
+}
+
+#boton-del:hover{    
+    -fx-font-weigth: bold;
+    -fx-font-family:"Gill Sans MT";
+    -fx-background-color: #BBD8D3;
+    -fx-font-size: 16px;
+}
+
+#boton-inverso{
+    -fx-background-color: #ADC4C0;
+}
+
+#boton-inverso:hover{    
+    -fx-font-weigth: bold;
+    -fx-font-family:"Gill Sans MT";    
+    -fx-background-color: #BBD8D3;
+    -fx-font-size: 18px;
+}
+
+#boton-inverso-multiplicativo{
+    -fx-background-color: #ADC4C0;
+}
+
+#boton-inverso-multiplicativo:hover{
+    -fx-font-size: 18px;
+    -fx-font-weigth: bold;
+    -fx-font-family:"Gill Sans MT";    
+    -fx-background-color: #BBD8D3;
+}
+
+#label-pantalla{
+    -fx-background-color:  #ABB5BD;
+    -fx-background-radius: 10 10 10 10;
+}
+
+#anchor-pane{
+    -fx-background-color: #DEEAF2;
+}
+
+
+.botones-operadores{
+    -fx-background-color: #4AA4D6;
+    -fx-text-fill: #FFFFFF;
+}
+
+.botones-operadores:hover{
+    -fx-font-size: 20px;
+    -fx-background-color: #4AB3F0;
+}
+
+.botones-numericos{ 
+    -fx-background-color: #ADC4C0;
+    -fx-font-size: 18px;
+    -fx-font-weigth: bold;
+    -fx-font-family:"Gill Sans MT";
+}
+
+.botones-numericos:hover{ /* hover es una subclase que se "activa" al pasar el mouse por encima del objeto(boton)*/
+    -fx-font-size: 20px;
+    -fx-background-color: #BBD8D3;
+}
+
+.botones-operaciones-especiales{
+    /*-fx-font-family:"Arial"; realiza un cambio de fuente*/
+    -fx-background-color: #ADC4C0;
+    -fx-font-size: 18px;
+    -fx-font-weigth: bold;
+    -fx-font-family:"Gill Sans MT";
+}
+
+.botones-operaciones-especiales:hover{
+    -fx-font-size: 20px;
+    -fx-background-color: #BBD8D3;
+}
